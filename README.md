@@ -13,4 +13,4 @@ This is a simple JavaScript to-do list project that allows you to keep track of 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Freehiei/to-do-list-updated
+git clone https://github.com/DeidaTypes/to-do-list-updated
