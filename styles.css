@@ -1,0 +1,50 @@
+body{
+margin: 0;
+padding: 0;
+ background-image: url(lofigirl.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+h1{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.to-do{
+    color: blanchedalmond;
+   text-align: center;
+}
+
+
+/* Styles for screens with maximum width of 600px (mobile devices) */
+@media (max-width: 600px) {
+    /* Adjust task container width and height */
+    #container {
+      width: 90%;
+      height: auto;
+    }
+    
+    /* Stack elements vertically */
+    #container > * {
+      margin-bottom: 10px;
+    }
+  
+    /* Adjust font sizes for mobile */
+    #taskInput,
+    #dueDateInput{
+      font-size: 14px;
+    }
+  }
+  
